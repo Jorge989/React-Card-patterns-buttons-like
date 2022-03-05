@@ -96,7 +96,7 @@ const useClapAnimation = ({ clapEl, countEl, clapTotalEl }) => {
       circleBurst
     ])
     setAnimationTimeline(newAnimationTimeline)
-  }, [clapEl, countEl, clapTotalEl])
+  }, [clapEl, countEl, clapTotalEl,animationTimeline])
 
   return animationTimeline
 }
