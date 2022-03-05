@@ -1,0 +1,23 @@
+.AvatarContainer{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+flex-direction: row;
+  height: 20%;
+  width: 100%;
+  gap:10px;
+
+  
+}
+.AvatarContainer h2{
+font-size: 23px;
+letter-spacing: 10px;
+  
+}
+.AvatarContainer img{
+border-radius: 50%;
+width: 60px;
+height: 60px;
+margin-left:4%; 
+
+ }

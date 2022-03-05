@@ -1,0 +1,103 @@
+.clap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    outline: 1px solid transparent;
+    border-radius: 50%;
+    border: 2px solid #bdc3c7;
+    width: 49px;
+    height: 49px;  
+    background-color: transparent;
+    user-select: none;
+
+}
+.clap:after{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    display: block;
+    border-radius: 50%;
+    width: 49px;
+    height: 49px;  
+    
+}
+.clap:hover{
+    cursor: pointer;
+    border: 2px solid #fa0d48;
+    transition: shockwave 1s ease-in infinite;
+}
+
+@keyframes shockwave {
+    0%{
+        transform: scale(1);
+        box-shadow:  0 0 2px #fa0d48;
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0;
+        box-shadow: 0 0 50px rgb(175, 5, 70), inset 0 010px #fa0d48;
+    }
+}
+
+.count{
+    position: absolute;
+    top: -30px;
+    left: 5px;
+    font-size: 0.8rem;
+    color: white;
+    background-color: #fa0d48;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+}.total {
+    position: absolute;
+    font-size: 0.8rem;
+    width: 47px;
+    text-align: center;
+    left: 0;
+    top: -22px;
+    color: #bdc3c7;
+  }
+  .icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    width: 20px;
+    fill: none;
+    stroke: #fa0d48;
+    stroke-width: 20px;
+  }
+
+  .icon.checked {
+    fill: #fa0d48;
+    stroke: #fff;
+    stroke-width: 1px;
+  }
+  
+  /* Clap Info */
+  .info {
+    position: relative;
+    top: 47px;
+  }
+span{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  
+
+   
+}
+svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
