@@ -19,15 +19,15 @@ function App() {
         <div className="carrousel-fotos">
         <Carousel>
                 <div className="div-carousel">
-                    <img src={Monalisa} id="foto"/>
+                    <img src={Monalisa} id="foto" alt="foto1"/>
 
                 </div>
                 <div>
-                    <img src={Simon} id="foto"/>
+                    <img src={Simon} id="foto" alt="foto2"/>
             
                 </div>
                 <div>
-                    <img src={Hand}id="foto"/>
+                    <img src={Hand}id="foto" alt="foto3"/>
                  
                 </div>
             </Carousel>
